@@ -26,7 +26,7 @@ struct vescValues data;
 unsigned long lastDataCheck;
 
 void setup() {
-  SERIALIO.begin(115200);
+  Serial.begin(115200);
 
   radio.begin();
   radio.enableAckPayload();
